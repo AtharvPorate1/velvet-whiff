@@ -90,10 +90,10 @@ const SectionClientSay: FC<SectionClientSayProps> = ({ className = "" }) => {
       className={`nc-SectionClientSay relative flow-root ${className} `}
       data-nc-id="SectionClientSay"
     >
-      <Heading desc="Let's see what people think of Ciseco" isCenter>
-        Good news from far away 🥇
+      <Heading desc="Let's see what people think of Velvet Whiff" isCenter>
+         from far away 🥇
       </Heading>
-      <div className="relative md:mb-16 max-w-2xl mx-auto">
+      {/* <div className="relative md:mb-16 max-w-2xl mx-auto">
         {renderBg()}
 
         <Image className="mx-auto" src={clientSayMain} alt="" />
@@ -146,7 +146,23 @@ const SectionClientSay: FC<SectionClientSayProps> = ({ className = "" }) => {
             ))}
           </div>
         </div>
-      </div>
+      </div> */}
+      <p>
+      At VelvetWhiff, we believe that fragrance is not just a scent, but a statement. Our exclusive collection of perfumes is meticulously crafted to embody the epitome of opulence, offering a sensory journey that transcends time and trends. Inspired by the allure of velvet, each fragrance is a whispering breeze of indulgence, a symphony of notes that caresses the senses and leaves an everlasting impression.
+<br />
+<br />
+Our Philosophy:
+<br />
+<li>At VelvetWhiff, we believe in the art of subtle allure.</li>
+<li> Our fragrances are designed to complement your individuality, leaving a trail of sophistication that lingers in the minds of those you encounter. </li>
+<li>Each bottle is a testament to the enduring elegance of VelvetWhiff, a brand that embraces modern chic while preserving the timeless allure of classic perfumery.</li>
+<br />
+Experience the Velvet Touch:
+
+Explore our exclusive collection and discover the velvet touch that defines VelvetWhiff. Indulge in the luxury of fragrance, and let VelvetWhiff be the signature of your refined taste. Elevate your senses, embrace the mystique, and immerse yourself in the world of VelvetWhiff – where every breath is a velvet whiff of sophistication.
+
+
+      </p>
     </div>
   );
 };

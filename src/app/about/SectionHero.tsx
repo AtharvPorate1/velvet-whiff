@@ -4,7 +4,6 @@ import Image, { StaticImageData } from "next/image";
 
 export interface SectionHeroProps {
   className?: string;
-  rightImg: string | StaticImageData;
   heading: ReactNode;
   subHeading: string;
   btnText: string;

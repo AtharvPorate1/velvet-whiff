@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 import NcImage from "@/shared/NcImage/NcImage";
-import rightImgDemo from "@/images/promo3.png";
+import rightImgDemo from "@/images/promo2.png";
 import backgroundLineSvg from "@/images/BackgroundLine.svg";
 import Badge from "@/shared/Badge/Badge";
 import Input from "@/shared/Input/Input";
@@ -43,13 +43,13 @@ const SectionPromo3: FC<SectionPromo3Props> = ({ className = "lg:pt-10" }) => {
             <li className="flex items-center space-x-4">
               <Badge name="02" />
               <span className="font-medium text-neutral-700 dark:text-neutral-300">
-                Freeship
+                Best Deals
               </span>
             </li>
             <li className="flex items-center space-x-4">
               <Badge color="red" name="03" />
               <span className="font-medium text-neutral-700 dark:text-neutral-300">
-                Premium magazines
+                Premium Products
               </span>
             </li>
           </ul>
@@ -70,13 +70,7 @@ const SectionPromo3: FC<SectionPromo3Props> = ({ className = "lg:pt-10" }) => {
           </form>
         </div>
 
-        <NcImage
-          alt=""
-          containerClassName="relative block lg:absolute lg:right-0 lg:bottom-0 mt-10 lg:mt-0 max-w-lg lg:max-w-[calc(50%-40px)]"
-          src={rightImgDemo}
-          sizes="(max-width: 768px) 100vw, 50vw"
-          className=""
-        />
+        
       </div>
     </div>
   );

@@ -30,7 +30,6 @@ export interface Product {
   name: string;
   price: number;
   image: StaticImageData | string;
-  description: string;
   category: string;
   tags: string[];
   link: "/product-detail/";
@@ -112,7 +111,6 @@ export const PRODUCTS: Product[] = [
   {
     id: 1,
     name: "Enchanted Garden",
-    description: "Brown cockroach wings",
     price: 3200,
     image: productImgs[16],
     category: "Category 1",
@@ -128,7 +126,6 @@ export const PRODUCTS: Product[] = [
   {
     id: 2,
     name: 'Ethreal Blossom',
-    description: "Classic green",
     price: 3800,
     image: productImgs[1],
     category: "Category 1",
@@ -143,7 +140,6 @@ export const PRODUCTS: Product[] = [
   {
     id: 3,
     name: "Wild Orchid",
-    description: "New blue aqua",
     price: 3500,
     image: productImgs[15],
     category: "Category 1",
@@ -158,7 +154,6 @@ export const PRODUCTS: Product[] = [
   {
     id: 4,
     name: "Ocean Breeze",
-    description: "Dark pink 2023",
     price: 2200,
     image: productImgs[3],
     category: "Category 1",
@@ -173,7 +168,6 @@ export const PRODUCTS: Product[] = [
   {
     id: 5,
     name: "Mystic Woods",
-    description: "Perfect mint green",
     price: 2500,
     image: productImgs[4],
     category: "Category 1",
@@ -188,7 +182,6 @@ export const PRODUCTS: Product[] = [
   {
     id: 6,
     name: "Velvet Noir",
-    description: "New design 2023",
     price: 1800,
     image: productImgs[5],
     category: "Category 1",
@@ -202,7 +195,6 @@ export const PRODUCTS: Product[] = [
   {
     id: 7,
     name: "Royal Oud",
-    description: "Matte black",
     price: 2600,
     image: productImgs[8],
     category: "Category 1",
@@ -217,7 +209,6 @@ export const PRODUCTS: Product[] = [
   {
     id: 8,
     name: "Citrus Sunrise",
-    description: "Cream pink",
     price: 2500,
     image: productImgs[7],
     category: "Category 1",
@@ -236,7 +227,6 @@ export const SPORT_PRODUCTS: Product[] = [
   {
     id: 1,
     name: "Mastermind Toys",
-    description: "Brown cockroach wings",
     price: 74,
     image: productSport1,
     category: "Category 1",
@@ -252,7 +242,6 @@ export const SPORT_PRODUCTS: Product[] = [
   {
     id: 2,
     name: "Divine Essence",
-    description: "Classic green",
     price: 5000,
     image: productSport2,
     category: "Category 1",
@@ -267,7 +256,6 @@ export const SPORT_PRODUCTS: Product[] = [
   {
     id: 3,
     name: "Tee Ball Beanie",
-    description: "New blue aqua",
     price: 132,
     image: productSport3,
     category: "Category 1",
@@ -282,7 +270,6 @@ export const SPORT_PRODUCTS: Product[] = [
   {
     id: 4,
     name: "Rubber Table Tennis",
-    description: "Dark pink 2023",
     price: 28,
     image: productSport4,
     category: "Category 1",
@@ -297,7 +284,6 @@ export const SPORT_PRODUCTS: Product[] = [
   {
     id: 5,
     name: "Classic Blue Rugby",
-    description: "Perfect mint green",
     price: 42,
     image: productSport5,
     category: "Category 1",
@@ -312,7 +298,6 @@ export const SPORT_PRODUCTS: Product[] = [
   {
     id: 6,
     name: "Amber Whisper",
-    description: "New design 2023",
     price: 1800,
     image: productSport6,
     category: "Category 1",
@@ -326,7 +311,6 @@ export const SPORT_PRODUCTS: Product[] = [
   {
     id: 7,
     name: "Tabletop Football ",
-    description: "Matte black",
     price: 12,
     image: productSport7,
     category: "Category 1",
@@ -341,7 +325,6 @@ export const SPORT_PRODUCTS: Product[] = [
   {
     id: 8,
     name: "Pvc Catching Toy",
-    description: "Cream pink",
     price: 145,
     image: productSport8,
     category: "Category 1",

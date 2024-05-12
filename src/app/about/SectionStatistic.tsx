@@ -10,20 +10,20 @@ export interface Statistic {
 const FOUNDER_DEMO: Statistic[] = [
   {
     id: "1",
-    heading: "10 million",
+    heading: "Innovative",
     subHeading:
-      "Articles have been public around the world (as of Sept. 30, 2021)",
+      "Constantly push boundaries, redefine norms.",
   },
   {
     id: "2",
-    heading: "100,000",
-    subHeading: "Registered users account (as of Sept. 30, 2021)",
+    heading: "User-centric",
+    subHeading: "Prioritize customer needs, enhance user experience.",
   },
   {
     id: "3",
-    heading: "220+",
+    heading: "Versatile",
     subHeading:
-      "Countries and regions have our presence (as of Sept. 30, 2021)",
+      "Adapt quickly, create diverse solutions.",
   },
 ];
 
@@ -34,12 +34,12 @@ export interface SectionStatisticProps {
 const SectionStatistic: FC<SectionStatisticProps> = ({ className = "" }) => {
   return (
     <div className={`nc-SectionStatistic relative ${className}`}>
-      <Heading
+      {/* <Heading
         desc=" We’re impartial and independent, and every day we create distinctive,
           world-class programmes and content"
       >
         🚀 Fast Facts
-      </Heading>
+      </Heading> */}
       <div className="grid md:grid-cols-2 gap-6 lg:grid-cols-3 xl:gap-8">
         {FOUNDER_DEMO.map((item) => (
           <div

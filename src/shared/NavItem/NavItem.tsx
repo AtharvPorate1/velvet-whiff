@@ -24,7 +24,7 @@ const NavItem: FC<NavItemProps> = ({
       <button
         className={`block !leading-none font-medium whitespace-nowrap ${className} ${radius} ${
           isActive
-            ? "bg-slate-900 dark:bg-slate-100 text-slate-100 dark:text-slate-900 "
+            ? "bg-slate-800 dark:bg-slate-100 text-slate-100 dark:text-slate-800 "
             : "text-slate-500 dark:text-slate-400 dark:hover:text-slate-100 hover:text-slate-800 hover:bg-slate-100/75 dark:hover:bg-slate-800"
         } ${twFocusClass()}`}
         onClick={() => {

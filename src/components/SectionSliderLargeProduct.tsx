@@ -63,7 +63,7 @@ const SectionSliderLargeProduct: FC<SectionSliderLargeProductProps> = ({
 
   return (
     <div className={`nc-SectionSliderLargeProduct ${className}`}>
-      <div ref={sliderRef} className={`flow-root ${isShow ? "" : "invisible"}`}>
+      {/* <div ref={sliderRef} className={`flow-root ${isShow ? "" : "invisible"}`}>
         <Heading isCenter={false} hasNextPrev>
           Chosen by our experts
         </Heading>
@@ -118,7 +118,7 @@ const SectionSliderLargeProduct: FC<SectionSliderLargeProductProps> = ({
             </li>
           </ul>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

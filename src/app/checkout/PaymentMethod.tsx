@@ -211,35 +211,35 @@ const PaymentMethod: FC<Props> = ({
               <li>
                 {" "}
                 Bank name:{" "}
-                <span className="text-slate-900 dark:text-slate-200 font-medium">
+                <span className="text-slate-800 dark:text-slate-200 font-medium">
                   Example Bank Name
                 </span>
               </li>
               <li>
                 {" "}
                 Account number:{" "}
-                <span className="text-slate-900 dark:text-slate-200 font-medium">
+                <span className="text-slate-800 dark:text-slate-200 font-medium">
                   555 888 777
                 </span>
               </li>
               <li>
                 {" "}
                 Sort code:{" "}
-                <span className="text-slate-900 dark:text-slate-200 font-medium">
+                <span className="text-slate-800 dark:text-slate-200 font-medium">
                   999
                 </span>
               </li>
               <li>
                 {" "}
                 IBAN:{" "}
-                <span className="text-slate-900 dark:text-slate-200 font-medium">
+                <span className="text-slate-800 dark:text-slate-200 font-medium">
                   IBAN
                 </span>
               </li>
               <li>
                 {" "}
                 BIC:{" "}
-                <span className="text-slate-900 dark:text-slate-200 font-medium">
+                <span className="text-slate-800 dark:text-slate-200 font-medium">
                   BIC/Swift
                 </span>
               </li>
@@ -308,7 +308,7 @@ const PaymentMethod: FC<Props> = ({
                 />
               </svg>
             </div>
-            <p className="font-medium">Google / Apple Wallet</p>
+            <p className="font-medium">Google / PhonePay Wallet</p>
           </label>
           <div className={`mt-6 mb-4 space-y-6 ${active ? "block" : "hidden"}`}>
             <div className="text-sm prose dark:prose-invert">
@@ -383,7 +383,7 @@ const PaymentMethod: FC<Props> = ({
                 viewBox="0 0 24 24"
                 strokeWidth="2.5"
                 stroke="currentColor"
-                className="w-5 h-5 ml-3 text-slate-900"
+                className="w-5 h-5 ml-3 text-slate-800"
               >
                 <path
                   strokeLinecap="round"
@@ -393,8 +393,8 @@ const PaymentMethod: FC<Props> = ({
               </svg>
             </h3>
             <div className="font-semibold mt-1 text-sm">
-              <span className="">Google / Apple Wallet</span>
-              <span className="ml-3">xxx-xxx-xx55</span>
+              <span className="">Google / PhonePay Wallet</span>
+              <span className="ml-3"></span>
             </div>
           </div>
           <button

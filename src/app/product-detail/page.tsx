@@ -28,7 +28,7 @@ import NotifyAddTocart from "@/components/NotifyAddTocart";
 import Image from "next/image";
 import AccordionInfo from "@/components/AccordionInfo";
 
-const LIST_IMAGES_DEMO = [detail1JPG, detail2JPG, detail3JPG];
+const LIST_IMAGES_DEMO = [detail1JPG];
 
 const ProductDetailPage = () => {
   const { sizes, variants, status, allOfSizes, image } = PRODUCTS[0];
@@ -139,7 +139,7 @@ const ProductDetailPage = () => {
                 } ${
                   isActive
                     ? "bg-primary-6000 border-primary-6000 text-white hover:bg-primary-6000"
-                    : "border-slate-300 dark:border-slate-600 text-slate-900 dark:text-slate-200 hover:bg-neutral-50 dark:hover:bg-neutral-700"
+                    : "border-slate-300 dark:border-slate-600 text-slate-800 dark:text-slate-200 hover:bg-neutral-50 dark:hover:bg-neutral-700"
                 }`}
                 onClick={() => {
                   if (sizeOutStock) {
@@ -162,7 +162,7 @@ const ProductDetailPage = () => {
       return null;
     }
     const CLASSES =
-      "absolute top-3 left-3 px-2.5 py-1.5 text-xs bg-white dark:bg-slate-900 nc-shadow-lg rounded-full flex items-center justify-center text-slate-700 text-slate-900 dark:text-slate-300";
+      "absolute top-3 left-3 px-2.5 py-1.5 text-xs bg-white dark:bg-slate-800 nc-shadow-lg rounded-full flex items-center justify-center text-slate-700 text-slate-800 dark:text-slate-300";
     if (status === "New in") {
       return (
         <div className={CLASSES}>
@@ -204,14 +204,14 @@ const ProductDetailPage = () => {
         {/* ---------- 1 HEADING ----------  */}
         <div>
           <h2 className="text-2xl sm:text-3xl font-semibold">
-            Heavy Weight Shoes
+            Enchanted Garden
           </h2>
 
           <div className="flex items-center mt-5 space-x-4 sm:space-x-5">
             {/* <div className="flex text-xl font-semibold">$112.00</div> */}
             <Prices
               contentClass="py-1 px-2 md:py-1.5 md:px-3 text-lg font-semibold"
-              price={112}
+              price={3200}
             />
 
             <div className="h-7 border-l border-slate-300 dark:border-slate-700"></div>
@@ -240,8 +240,8 @@ const ProductDetailPage = () => {
         </div>
 
         {/* ---------- 3 VARIANTS AND SIZE LIST ----------  */}
-        <div className="">{renderVariants()}</div>
-        <div className="">{renderSizeList()}</div>
+        {/* <div className="">{renderVariants()}</div>
+        <div className="">{renderSizeList()}</div> */}
 
         {/*  ---------- 4  QTY AND ADD TO CART BUTTON */}
         <div className="flex space-x-3.5">
@@ -281,25 +281,10 @@ const ProductDetailPage = () => {
         <h2 className="text-2xl font-semibold">Product Details</h2>
         <div className="prose prose-sm sm:prose dark:prose-invert sm:max-w-4xl mt-7">
           <p>
-            The patented eighteen-inch hardwood Arrowhead deck --- finely
-            mortised in, makes this the strongest and most rigid canoe ever
-            built. You cannot buy a canoe that will afford greater satisfaction.
+           
+Indulge in our signature perfume, a captivating blend of floral and citrus notes with a touch of musk. Crafted with care, our cruelty-free formula features sustainably sourced ingredients for an ethically conscious choice. Experience long-lasting fragrance that evolves throughout the day, leaving a trail of elegance and allure. Elevate your scent game with our versatile perfume, perfect for any occasion and sure to make a lasting impression.
           </p>
-          <p>
-            The St. Louis Meramec Canoe Company was founded by Alfred Wickett in
-            1922. Wickett had previously worked for the Old Town Canoe Co from
-            1900 to 1914. Manufacturing of the classic wooden canoes in Valley
-            Park, Missouri ceased in 1978.
-          </p>
-          <ul>
-            <li>Regular fit, mid-weight t-shirt</li>
-            <li>Natural color, 100% premium combed organic cotton</li>
-            <li>
-              Quality cotton grown without the use of herbicides or pesticides -
-              GOTS certified
-            </li>
-            <li>Soft touch water based printed in the USA</li>
-          </ul>
+          
         </div>
       </div>
     );
@@ -320,28 +305,25 @@ const ProductDetailPage = () => {
             <ReviewItem />
             <ReviewItem
               data={{
-                comment: `I love the charcoal heavyweight hoodie. Still looks new after plenty of washes. 
-                  If you’re unsure which hoodie to pick.`,
+                comment: `Paisa Barbaad BC`,
                 date: "December 22, 2021",
-                name: "Stiven Hokinhs",
+                name: "Vaibhav Raj",
                 starPoint: 5,
               }}
             />
             <ReviewItem
               data={{
-                comment: `The quality and sizing mentioned were accurate and really happy with the purchase. Such a cozy and comfortable hoodie. 
-                Now that it’s colder, my husband wears his all the time. I wear hoodies all the time. `,
+                comment: `This fragrance is exquisite, lasting all day and receiving compliments wherever I go. It's become my new favorite `,
                 date: "August 15, 2022",
-                name: "Gropishta keo",
+                name: "Harsh",
                 starPoint: 5,
               }}
             />
             <ReviewItem
               data={{
-                comment: `Before buying this, I didn't really know how I would tell a "high quality" sweatshirt, but after opening, I was very impressed. 
-                The material is super soft and comfortable and the sweatshirt also has a good weight to it.`,
+                comment: `The perfect balance of floral and musk creates a scent that's both captivating and alluring. I can't get enough.`,
                 date: "December 12, 2022",
-                name: "Dahon Stiven",
+                name: "Raman",
                 starPoint: 5,
               }}
             />
@@ -381,7 +363,7 @@ const ProductDetailPage = () => {
               <LikeButton className="absolute right-3 top-3 " />
             </div>
             <div className="grid grid-cols-2 gap-3 mt-3 sm:gap-6 sm:mt-6 xl:gap-8 xl:mt-8">
-              {[LIST_IMAGES_DEMO[1], LIST_IMAGES_DEMO[2]].map((item, index) => {
+              {/* {[LIST_IMAGES_DEMO[1], LIST_IMAGES_DEMO[2]].map((item, index) => {
                 return (
                   <div
                     key={index}
@@ -396,7 +378,7 @@ const ProductDetailPage = () => {
                     />
                   </div>
                 );
-              })}
+              })} */}
             </div>
           </div>
 
@@ -429,7 +411,7 @@ const ProductDetailPage = () => {
           />
 
           {/* SECTION */}
-          <div className="pb-20 xl:pb-28 lg:pt-14">
+          <div className="pb-20 xl:pb-28 lg:pt-14 ">
             <SectionPromo2 />
           </div>
         </div>

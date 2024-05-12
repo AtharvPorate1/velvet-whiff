@@ -35,21 +35,21 @@ export interface SectionSliderLargeProduct2Props {
 export const DEMO_LARGE_PRODUCTS = [
   {
     id: 1,
-    images: [full1Img, full11Img, full12Img, full13Img],
+    images: [full1Img],
     name: "Suede Bomber Jacket",
     desc: "Orange",
     price: 52,
   },
   {
     id: 2,
-    images: [full2Img, full21Img, full22Img, full23Img],
+    images: [full2Img],
     name: "Downtown Pet Tote",
     desc: "Black and Orange",
     price: 88,
   },
   {
     id: 3,
-    images: [full3Img, full31Img, full32Img, full33Img],
+    images: [full3Img],
     name: "Cader Leather Sneakers",
     desc: "3 Sizes Available",
     price: 60,

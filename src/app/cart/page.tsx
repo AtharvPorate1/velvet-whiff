@@ -95,7 +95,7 @@ const CartPage = () => {
                       />
                     </svg>
 
-                    <span>{`Black`}</span>
+                    <span>{`Small`}</span>
                   </div>
                   <span className="mx-4 border-l border-slate-200 dark:border-slate-700 "></span>
                   <div className="flex items-center space-x-1.5">
@@ -130,7 +130,7 @@ const CartPage = () => {
                       />
                     </svg>
 
-                    <span>{`2XL`}</span>
+                    <span>{`200ml`}</span>
                   </div>
                 </div>
 
@@ -195,7 +195,7 @@ const CartPage = () => {
             </Link>
             <span className="text-xs mx-1 sm:mx-1.5">/</span>
             <Link href={"/collection"} className="">
-              Clothing Categories
+              Categories
             </Link>
             <span className="text-xs mx-1 sm:mx-1.5">/</span>
             <span className="underline">Shopping Cart</span>
@@ -221,25 +221,25 @@ const CartPage = () => {
               <div className="mt-7 text-sm text-slate-500 dark:text-slate-400 divide-y divide-slate-200/70 dark:divide-slate-700/80">
                 <div className="flex justify-between pb-4">
                   <span>Subtotal</span>
-                  <span className="font-semibold text-slate-900 dark:text-slate-200">
-                    $249.00
+                  <span className="font-semibold text-slate-800 dark:text-slate-200">
+                  ₹5700
                   </span>
                 </div>
                 <div className="flex justify-between py-4">
                   <span>Shpping estimate</span>
-                  <span className="font-semibold text-slate-900 dark:text-slate-200">
-                    $5.00
+                  <span className="font-semibold text-slate-800 dark:text-slate-200">
+                  ₹100
                   </span>
                 </div>
                 <div className="flex justify-between py-4">
                   <span>Tax estimate</span>
-                  <span className="font-semibold text-slate-900 dark:text-slate-200">
-                    $24.90
+                  <span className="font-semibold text-slate-800 dark:text-slate-200">
+                  ₹500
                   </span>
                 </div>
-                <div className="flex justify-between font-semibold text-slate-900 dark:text-slate-200 text-base pt-4">
+                <div className="flex justify-between font-semibold text-slate-800 dark:text-slate-200 text-base pt-4">
                   <span>Order total</span>
-                  <span>$276.00</span>
+                  <span>₹6400</span>
                 </div>
               </div>
               <ButtonPrimary href="/checkout" className="mt-8 w-full">
@@ -279,7 +279,7 @@ const CartPage = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     href="##"
-                    className="text-slate-900 dark:text-slate-200 underline font-medium"
+                    className="text-slate-800 dark:text-slate-200 underline font-medium"
                   >
                     Taxes
                   </a>
@@ -290,7 +290,7 @@ const CartPage = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     href="##"
-                    className="text-slate-900 dark:text-slate-200 underline font-medium"
+                    className="text-slate-800 dark:text-slate-200 underline font-medium"
                   >
                     Shipping
                   </a>

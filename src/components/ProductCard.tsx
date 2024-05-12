@@ -53,7 +53,7 @@ const ProductCard: FC<ProductCardProps> = ({
         <Transition
           appear
           show={t.visible}
-          className="p-4 max-w-md w-full bg-white dark:bg-slate-800 shadow-lg rounded-2xl pointer-events-auto ring-1 ring-black/5 dark:ring-white/10 text-slate-900 dark:text-slate-200"
+          className="p-4 max-w-md w-full bg-white dark:bg-slate-800 shadow-lg rounded-2xl pointer-events-auto ring-1 ring-black/5 dark:ring-white/10 text-slate-800 dark:text-slate-200"
           enter="transition-all duration-150"
           enterFrom="opacity-0 translate-x-20"
           enterTo="opacity-100 translate-x-0"
@@ -222,10 +222,10 @@ const ProductCard: FC<ProductCardProps> = ({
           onClick={() => notifyAddTocart({ size: "XL" })}
         >
           <BagIcon className="w-3.5 h-3.5 mb-0.5" />
-          <span className="ms-1">Add to bag</span>
+          <span className="ms-1">Add to Cart</span>
         </ButtonPrimary>
         <ButtonSecondary
-          className="ms-1.5 bg-white hover:!bg-gray-100 hover:text-slate-900 transition-colors shadow-lg"
+          className="ms-1.5 bg-white hover:!bg-gray-100 hover:text-slate-800 transition-colors shadow-lg"
           fontSize="text-xs"
           sizeClass="py-2 px-4"
           onClick={() => setShowModalQuickView(true)}
@@ -248,7 +248,7 @@ const ProductCard: FC<ProductCardProps> = ({
           return (
             <div
               key={index}
-              className="nc-shadow-lg w-10 h-10 rounded-xl bg-white hover:bg-slate-900 hover:text-white transition-colors cursor-pointer flex items-center justify-center uppercase font-semibold tracking-tight text-sm text-slate-900"
+              className="nc-shadow-lg w-10 h-10 rounded-xl bg-white hover:bg-slate-800 hover:text-white transition-colors cursor-pointer flex items-center justify-center uppercase font-semibold tracking-tight text-sm text-slate-800"
               onClick={() => notifyAddTocart({ size })}
             >
               {size}

@@ -170,7 +170,7 @@ const ProductDetailPage2 = ({}) => {
                 } ${
                   isActive
                     ? "bg-primary-6000 border-primary-6000 text-white hover:bg-primary-6000"
-                    : "border-slate-300 dark:border-slate-600 text-slate-900 dark:text-slate-200 hover:bg-neutral-50 dark:hover:bg-neutral-700"
+                    : "border-slate-300 dark:border-slate-600 text-slate-800 dark:text-slate-200 hover:bg-neutral-50 dark:hover:bg-neutral-700"
                 }`}
                 onClick={() => {
                   if (sizeOutStock) {
@@ -193,7 +193,7 @@ const ProductDetailPage2 = ({}) => {
       return null;
     }
     const CLASSES =
-      "text-sm flex items-center text-slate-700 text-slate-900 dark:text-slate-300";
+      "text-sm flex items-center text-slate-700 text-slate-800 dark:text-slate-300";
     if (status === "New in") {
       return (
         <div className={CLASSES}>
@@ -495,7 +495,7 @@ const ProductDetailPage2 = ({}) => {
 
                     {/* OVERLAY */}
                     <div
-                      className="absolute inset-0 bg-slate-900/20 opacity-0 hover:opacity-60 transition-opacity cursor-pointer"
+                      className="absolute inset-0 bg-slate-800/20 opacity-0 hover:opacity-60 transition-opacity cursor-pointer"
                       onClick={handleOpenModalImageGallery}
                     />
                   </div>

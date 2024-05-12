@@ -40,7 +40,7 @@ export default function CartDropdown() {
                 <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
                   <span>{`Natural`}</span>
                   <span className="mx-2 border-l border-slate-200 dark:border-slate-700 h-4"></span>
-                  <span>{"XL"}</span>
+                  <span>{"200ml"}</span>
                 </p>
               </div>
               <Prices price={price} className="mt-0.5" />
@@ -145,7 +145,7 @@ export default function CartDropdown() {
                           Shipping and taxes calculated at checkout.
                         </span>
                       </span>
-                      <span className="">$299.00</span>
+                      <span className="">₹10500</span>
                     </p>
                     <div className="flex space-x-2 mt-5">
                       <ButtonSecondary

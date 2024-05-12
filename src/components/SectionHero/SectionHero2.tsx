@@ -97,7 +97,7 @@ const SectionHero2: FC<SectionHero2Props> = ({ className = "" }) => {
                 >
                   {isActive && (
                     <div
-                      className={`nc-SectionHero2Item__dot absolute inset-0 bg-slate-900 rounded-md ${
+                      className={`nc-SectionHero2Item__dot absolute inset-0 bg-slate-800 rounded-md ${
                         isActive ? " " : " "
                       }`}
                     ></div>
@@ -122,10 +122,10 @@ const SectionHero2: FC<SectionHero2Props> = ({ className = "" }) => {
         />
 
         {/* BG */}
-        <div className="absolute inset-0 bg-[#E3FFE6]">
+        <div className="absolute inset-0 bg-slate-950">
           <Image
             fill
-            sizes="(max-width: 768px) 100vw, 50vw"
+            sizes="(max-width: 512px) 100vw, 50vw"
             className="absolute w-full h-full object-contain"
             src={backgroundLineSvg}
             alt="hero"
@@ -137,16 +137,16 @@ const SectionHero2: FC<SectionHero2Props> = ({ className = "" }) => {
             className={`relative z-[1] w-full max-w-3xl space-y-8 sm:space-y-14 nc-SectionHero2Item__left`}
           >
             <div className="space-y-5 sm:space-y-6">
-              <span className="nc-SectionHero2Item__subheading block text-base md:text-xl text-slate-700 font-medium">
+              <span className="nc-SectionHero2Item__subheading block text-base md:text-xl text-white font-medium">
                 {item.subHeading}
               </span>
-              <h2 className="nc-SectionHero2Item__heading font-semibold text-3xl sm:text-4xl md:text-5xl xl:text-6xl 2xl:text-7xl !leading-[114%] text-slate-900">
+              <h2 className="nc-SectionHero2Item__heading font-semibold text-3xl sm:text-4xl md:text-5xl xl:text-6xl 2xl:text-7xl !leading-[114%] text-slate-800">
                 {item.heading}
               </h2>
             </div>
 
             <ButtonPrimary
-              className="nc-SectionHero2Item__button dark:bg-slate-900"
+              className="nc-SectionHero2Item__button dark:bg-white"
               sizeClass="py-3 px-6 sm:py-5 sm:px-9"
               href={item.btnLink}
             >
@@ -174,7 +174,7 @@ const SectionHero2: FC<SectionHero2Props> = ({ className = "" }) => {
           <div className="mt-10 lg:mt-0 lg:absolute end-0 rtl:-end-28 bottom-0 top-0 w-full max-w-2xl xl:max-w-3xl 2xl:max-w-4xl">
             <Image
               fill
-              sizes="(max-width: 768px) 100vw, 50vw"
+              sizes="(max-width: 512px) 100vw, 50vw"
               className="w-full h-full object-contain object-right-bottom nc-SectionHero2Item__image"
               src={item.image}
               alt={item.heading}

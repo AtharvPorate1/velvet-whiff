@@ -77,7 +77,7 @@ const NavMobile: React.FC<NavMobileProps> = ({
       <Disclosure
         key={index}
         as="li"
-        className="text-slate-900 dark:text-white"
+        className="text-slate-800 dark:text-white"
       >
         <Link
           className="flex w-full items-center py-2.5 px-4 font-medium uppercase tracking-wide text-sm hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg"
@@ -147,7 +147,7 @@ const NavMobile: React.FC<NavMobileProps> = ({
       <form
         action=""
         method="POST"
-        className="flex-1 text-slate-900 dark:text-slate-200"
+        className="flex-1 text-slate-800 dark:text-slate-200"
       >
         <div className="bg-slate-50 dark:bg-slate-800 flex items-center space-x-1 py-2 px-4 rounded-xl h-full">
           {renderMagnifyingGlassIcon()}

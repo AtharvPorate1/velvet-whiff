@@ -54,7 +54,7 @@ const AccountPage = () => {
           <div className="flex-grow mt-10 md:mt-0 md:pl-16 max-w-3xl space-y-6">
             <div>
               <Label>Full name</Label>
-              <Input className="mt-1.5" defaultValue="Enrico Cole" />
+              <Input className="mt-1.5" defaultValue="Sanskriti Sai" />
             </div>
 
             {/* ---- */}
@@ -83,20 +83,20 @@ const AccountPage = () => {
                 <Input
                   className="!rounded-l-none"
                   type="date"
-                  defaultValue="1990-07-22"
+                  defaultValue="2002-04-02"
                 />
               </div>
             </div>
             {/* ---- */}
             <div>
-              <Label>Addess</Label>
+              <Label>Address</Label>
               <div className="mt-1.5 flex">
                 <span className="inline-flex items-center px-2.5 rounded-l-2xl border border-r-0 border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 text-neutral-500 dark:text-neutral-400 text-sm">
                   <i className="text-2xl las la-map-signs"></i>
                 </span>
                 <Input
                   className="!rounded-l-none"
-                  defaultValue="New york, USA"
+                  defaultValue="Patna, India"
                 />
               </div>
             </div>
@@ -118,7 +118,7 @@ const AccountPage = () => {
                 <span className="inline-flex items-center px-2.5 rounded-l-2xl border border-r-0 border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 text-neutral-500 dark:text-neutral-400 text-sm">
                   <i className="text-2xl las la-phone-volume"></i>
                 </span>
-                <Input className="!rounded-l-none" defaultValue="003 888 232" />
+                <Input className="!rounded-l-none" defaultValue="+91874382749" />
               </div>
             </div>
             {/* ---- */}

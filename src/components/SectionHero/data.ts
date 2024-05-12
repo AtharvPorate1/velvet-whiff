@@ -20,13 +20,7 @@ export const HERO2_DEMO_DATA: Hero2DataType[] = [
     btnText: "Explore now",
     btnLink: "/",
   },
-  {
-    image: imageRightPng3,
-    heading: "Exclusive collection for everyone",
-    subHeading: "In this season, find the best 🔥",
-    btnText: "Explore now",
-    btnLink: "/",
-  },
+
   {
     image: imageRightPng,
     heading: "Exclusive collection for everyone",

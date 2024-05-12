@@ -132,7 +132,7 @@ const ProductQuickView2: FC<ProductQuickView2Props> = ({ className = "" }) => {
                 } ${
                   isActive
                     ? "bg-primary-6000 border-primary-6000 text-white hover:bg-primary-6000"
-                    : "border-slate-300 dark:border-slate-600 text-slate-900 dark:text-slate-200 hover:bg-neutral-50 dark:hover:bg-neutral-700"
+                    : "border-slate-300 dark:border-slate-600 text-slate-800 dark:text-slate-200 hover:bg-neutral-50 dark:hover:bg-neutral-700"
                 }`}
                 onClick={() => {
                   if (sizeOutStock) {
@@ -155,7 +155,7 @@ const ProductQuickView2: FC<ProductQuickView2Props> = ({ className = "" }) => {
       return null;
     }
     const CLASSES =
-      "absolute top-3 left-3 px-2.5 py-1.5 text-xs bg-white dark:bg-slate-900 nc-shadow-lg rounded-full flex items-center justify-center text-slate-700 text-slate-900 dark:text-slate-300";
+      "absolute top-3 left-3 px-2.5 py-1.5 text-xs bg-white dark:bg-slate-800 nc-shadow-lg rounded-full flex items-center justify-center text-slate-700 text-slate-800 dark:text-slate-300";
     if (status === "New in") {
       return (
         <div className={CLASSES}>

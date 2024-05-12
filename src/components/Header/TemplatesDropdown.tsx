@@ -57,7 +57,7 @@ export default function TemplatesDropdown() {
                       <div className="flex-1 grid grid-cols-4 gap-6 xl:gap-8 pr-6 xl:pr-8">
                         {MEGAMENU_TEMPLATES.map((item, index) => (
                           <div key={index}>
-                            <p className="font-medium text-slate-900 dark:text-neutral-200">
+                            <p className="font-medium text-slate-800 dark:text-neutral-200">
                               {item.name}
                             </p>
                             <ul className="grid space-y-4 mt-4">

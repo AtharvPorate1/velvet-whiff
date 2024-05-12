@@ -124,7 +124,7 @@ const SectionSliderCategories: FC<SectionSliderCategoriesProps> = ({
               >
                 <div>
                   <div className="absolute inset-y-6 inset-x-10 flex flex-col sm:items-center justify-center">
-                    <div className="flex relative text-slate-900">
+                    <div className="flex relative text-slate-800">
                       <span className="text-lg font-semibold ">
                         More collections
                       </span>

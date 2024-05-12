@@ -64,7 +64,7 @@ const DATA_sortOrderRadios = [
   { name: "Price Hight - Low", id: "Price-hight-low" },
 ];
 
-const PRICE_RANGE = [1, 500];
+const PRICE_RANGE = [1000, 10000];
 //
 const TabFilters = () => {
   const [isOpenMoreFilter, setisOpenMoreFilter] = useState(false);
@@ -477,7 +477,7 @@ const TabFilters = () => {
                       </div>
                     ))}
                   </div>
-                  <div className="p-5 bg-slate-50 dark:bg-slate-900 dark:border-t dark:border-slate-800 flex items-center justify-between">
+                  <div className="p-5 bg-slate-50 dark:bg-slate-800 dark:border-t dark:border-slate-800 flex items-center justify-between">
                     <ButtonThird
                       onClick={() => {
                         close();
@@ -587,7 +587,7 @@ const TabFilters = () => {
                       </div>
                     ))}
                   </div>
-                  <div className="p-5 bg-slate-50 dark:bg-slate-900 dark:border-t dark:border-slate-800 flex items-center justify-between">
+                  <div className="p-5 bg-slate-50 dark:bg-slate-800 dark:border-t dark:border-slate-800 flex items-center justify-between">
                     <ButtonThird
                       onClick={() => {
                         close();
@@ -622,7 +622,7 @@ const TabFilters = () => {
             <Popover.Button
               className={`flex items-center justify-center px-4 py-2 text-sm rounded-full border border-primary-500 bg-primary-50 text-primary-900 focus:outline-none `}
             >
-              <svg
+              {/* <svg
                 className="w-4 h-4"
                 viewBox="0 0 24 24"
                 fill="none"
@@ -649,9 +649,9 @@ const TabFilters = () => {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                 />
-              </svg>
+              </svg> */}
 
-              <span className="ml-2 min-w-[90px]">{`${rangePrices[0]}$ - ${rangePrices[1]}$`}</span>
+              <span className="ml-2 min-w-[90px]">{`${rangePrices[0]}₹ - ${rangePrices[1]}₹`}</span>
               {rangePrices[0] === PRICE_RANGE[0] &&
               rangePrices[1] === PRICE_RANGE[1] ? null : (
                 <span onClick={() => setRangePrices(PRICE_RANGE)}>
@@ -1045,7 +1045,7 @@ const TabFilters = () => {
                                 <div className="mt-1 relative rounded-md">
                                   <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                                     <span className="text-neutral-500 sm:text-sm">
-                                      $
+                                    ₹
                                     </span>
                                   </div>
                                   <input
@@ -1134,8 +1134,8 @@ const TabFilters = () => {
       <div className="hidden lg:flex flex-1 space-x-4">
         {renderTabsPriceRage()}
         {renderTabsCategories()}
-        {renderTabsColor()}
-        {renderTabsSize()}
+        {/* {renderTabsColor()} */}
+        {/* {renderTabsSize()} */}
         {renderTabIsOnsale()}
         <div className="!ml-auto">{renderTabsSortOrder()}</div>
       </div>

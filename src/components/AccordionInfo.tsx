@@ -8,36 +8,35 @@ const DEMO_DATA = [
   {
     name: "Description",
     content:
-      "Fashion is a form of self-expression and autonomy at a particular period and place and in a specific context, of clothing, footwear, lifestyle, accessories, makeup, hairstyle, and body posture.",
+      "Elegant perfume featuring a harmonious blend of jasmine and vanilla, creating a captivating scent that embodies sophistication, allure, and timeless sensuality for discerning individuals.",
   },
   {
-    name: "Fabric + Care",
+    name: "How its Made",
     content: `<ul class="list-disc list-inside leading-7">
-    <li>Made from a sheer Belgian power micromesh.</li>
+    <li> Globally sourced for unparalleled richness and allure.</li>
     <li>
-    74% Polyamide (Nylon) 26% Elastane (Spandex)
+    Crafted for harmonious, long-lasting fragrance compositions.
     </li>
     <li>
-    Adjustable hook & eye closure and straps
+    Patient aging fosters depth and sophistication.
     </li>
     <li>
-    Hand wash in cold water, dry flat
+    Quality control ensures excellence from formulation.
     </li>
   </ul>`,
   },
 
   {
-    name: "How it Fits",
+    name: "How it Feels",
     content:
-      "Use this as a guide. Preference is a huge factor — if you're near the top of a size range and/or prefer more coverage, you may want to size up.",
-  },
+      "It envelops you in a delicate embrace, evoking emotions of confidence, allure, and elegance. Its scent lingers, leaving a trail of enchantment wherever you go"  },
   {
     name: "FAQ",
     content: `
     <ul class="list-disc list-inside leading-7">
-    <li>All full-priced, unworn items, with tags attached and in their original packaging are eligible for return or exchange within 30 days of placing your order.</li>
+    <li>What is the fragrance profile?</li>
     <li>
-    Please note, packs must be returned in full. We do not accept partial returns of packs.
+    Can the perfume be layered with other scents?
     </li>
     <li>
     Want to know our full returns policies? Here you go.

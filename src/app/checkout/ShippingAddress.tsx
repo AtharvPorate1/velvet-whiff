@@ -76,7 +76,7 @@ const ShippingAddress: FC<Props> = ({
                 viewBox="0 0 24 24"
                 strokeWidth="2.5"
                 stroke="currentColor"
-                className="w-5 h-5 ml-3 text-slate-900 dark:text-slate-100"
+                className="w-5 h-5 ml-3 text-slate-800 dark:text-slate-100"
               >
                 <path
                   strokeLinecap="round"
@@ -87,7 +87,7 @@ const ShippingAddress: FC<Props> = ({
             </h3>
             <div className="font-semibold mt-1 text-sm">
               <span className="">
-                {`St. Paul's Road, Norris, SD 57560, Dakota, USA`}
+                {`Boring Road,Patna, 800001, India`}
               </span>
             </div>
           </div>
@@ -107,11 +107,11 @@ const ShippingAddress: FC<Props> = ({
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-3">
             <div>
               <Label className="text-sm">First name</Label>
-              <Input className="mt-1.5" defaultValue="Cole" />
+              <Input className="mt-1.5" defaultValue="Sanskriti" />
             </div>
             <div>
               <Label className="text-sm">Last name</Label>
-              <Input className="mt-1.5" defaultValue="Enrico " />
+              <Input className="mt-1.5" defaultValue="Sai " />
             </div>
           </div>
 
@@ -122,13 +122,13 @@ const ShippingAddress: FC<Props> = ({
               <Input
                 className="mt-1.5"
                 placeholder=""
-                defaultValue={"123, Dream Avenue, USA"}
+                defaultValue={"Block-6, Patna, India"}
                 type={"text"}
               />
             </div>
             <div className="sm:w-1/3">
-              <Label className="text-sm">Apt, Suite *</Label>
-              <Input className="mt-1.5" defaultValue="55U - DD5 " />
+              <Label className="text-sm"> Landmark</Label>
+              <Input className="mt-1.5" defaultValue="near..... " />
             </div>
           </div>
 
@@ -136,19 +136,19 @@ const ShippingAddress: FC<Props> = ({
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-3">
             <div>
               <Label className="text-sm">City</Label>
-              <Input className="mt-1.5" defaultValue="Norris" />
+              <Input className="mt-1.5" defaultValue="Patna" />
             </div>
             <div>
               <Label className="text-sm">Country</Label>
-              <Select className="mt-1.5" defaultValue="United States ">
-                <option value="United States">United States</option>
-                <option value="United States">Canada</option>
-                <option value="United States">Mexico</option>
-                <option value="United States">Israel</option>
-                <option value="United States">France</option>
-                <option value="United States">England</option>
-                <option value="United States">Laos</option>
-                <option value="United States">China</option>
+              <Select className="mt-1.5" defaultValue="India ">
+                <option value="India">India</option>
+                <option value="India">Canada</option>
+                <option value="India">Mexico</option>
+                <option value="India">Israel</option>
+                <option value="India">France</option>
+                <option value="India">England</option>
+                <option value="India">Laos</option>
+                <option value="India">China</option>
               </Select>
             </div>
           </div>
@@ -157,11 +157,11 @@ const ShippingAddress: FC<Props> = ({
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-3">
             <div>
               <Label className="text-sm">State/Province</Label>
-              <Input className="mt-1.5" defaultValue="Texas" />
+              <Input className="mt-1.5" defaultValue="Patna" />
             </div>
             <div>
               <Label className="text-sm">Postal code</Label>
-              <Input className="mt-1.5" defaultValue="2500 " />
+              <Input className="mt-1.5" defaultValue="800001 " />
             </div>
           </div>
 

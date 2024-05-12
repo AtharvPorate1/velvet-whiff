@@ -54,7 +54,7 @@ const ContactInfo: FC<Props> = ({ isActive, onCloseActive, onOpenActive }) => {
                 viewBox="0 0 24 24"
                 strokeWidth="2.5"
                 stroke="currentColor"
-                className="w-5 h-5 ml-3 text-slate-900 dark:text-slate-100 "
+                className="w-5 h-5 ml-3 text-slate-800 dark:text-slate-100 "
               >
                 <path
                   strokeLinecap="round"
@@ -64,8 +64,8 @@ const ContactInfo: FC<Props> = ({ isActive, onCloseActive, onOpenActive }) => {
               </svg>
             </h3>
             <div className="font-semibold mt-1 text-sm">
-              <span className="">Enrico Smith</span>
-              <span className="ml-3 tracking-tighter">+855 - 666 - 7744</span>
+              <span className="">Sanskriti Sai</span>
+              <span className="ml-3 tracking-tighter">+91859274857</span>
             </div>
           </div>
           <button
@@ -91,7 +91,7 @@ const ContactInfo: FC<Props> = ({ isActive, onCloseActive, onOpenActive }) => {
           </div>
           <div className="max-w-lg">
             <Label className="text-sm">Your phone number</Label>
-            <Input className="mt-1.5" defaultValue={"+808 xxx"} type={"tel"} />
+            <Input className="mt-1.5" defaultValue={"+91 xxx"} type={"tel"} />
           </div>
           <div className="max-w-lg">
             <Label className="text-sm">Email address</Label>

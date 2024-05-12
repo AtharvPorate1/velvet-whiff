@@ -49,7 +49,7 @@ const MainNav2: FC<MainNav2Props> = ({ className = "" }) => {
   const renderSearchForm = () => {
     return (
       <form
-        className="flex-1 py-2 text-slate-900 dark:text-slate-100"
+        className="flex-1 py-2 text-slate-800 dark:text-slate-100"
         onSubmit={(e) => {
           e.preventDefault();
           router.push("/search");
@@ -73,7 +73,7 @@ const MainNav2: FC<MainNav2Props> = ({ className = "" }) => {
   };
 
   return (
-    <div className="nc-MainNav2 relative z-10 bg-white dark:bg-slate-900 ">
+    <div className="nc-MainNav2 relative z-10 bg-white dark:bg-slate-800 ">
       <div className="container">
         <div className="h-20 flex justify-between">
           <div className="flex items-center md:hidden flex-1">

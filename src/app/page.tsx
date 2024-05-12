@@ -19,7 +19,7 @@ import SectionMagazine5 from "@/app/blog/SectionMagazine5";
 
 function PageHome() {
   return (
-    <div className="nc-PageHome relative overflow-hidden">
+    <div className="nc-PageHome relative overflow-hidden bg-black/ ">
       <SectionHero2 />
 
       <div className="mt-24 lg:mt-32">
@@ -37,12 +37,12 @@ function PageHome() {
           ]}
         />
 
-        <div className="py-24 lg:py-32 border-t border-b border-slate-200 dark:border-slate-700">
+        {/* <div className="py-24 lg:py-32 border-t border-b border-slate-200 dark:border-slate-700">
           <SectionHowItWork />
         </div>
-        <SectionPromo1 />
+        <SectionPromo1 /> */}
 
-        <div className="relative py-24 lg:py-32">
+        {/* <div className="relative py-24 lg:py-32">
           <BackgroundSection />
           <SectionGridMoreExplore />
         </div>
@@ -50,9 +50,9 @@ function PageHome() {
         <SectionSliderProductCard
           heading="Best Sellers"
           subHeading="Best selling of the month"
-        />
+        /> */}
 
-        <SectionPromo2 />
+        {/* <SectionPromo2 />
 
         <SectionSliderLargeProduct cardStyle="style2" />
 
@@ -75,6 +75,7 @@ function PageHome() {
           </div>
         </div>
         <SectionClientSay />
+      </div> */}
       </div>
     </div>
   );

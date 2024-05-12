@@ -92,7 +92,7 @@ const CheckoutPage = () => {
                       />
                     </svg>
 
-                    <span>{`Black`}</span>
+                    {/* <span>{`Black`}</span> */}
                   </div>
                   <span className="mx-4 border-l border-slate-200 dark:border-slate-700 "></span>
                   <div className="flex items-center space-x-1.5">
@@ -127,7 +127,7 @@ const CheckoutPage = () => {
                       />
                     </svg>
 
-                    <span>{`2XL`}</span>
+                    <span>{`200ml`}</span>
                   </div>
                 </div>
 
@@ -264,25 +264,25 @@ const CheckoutPage = () => {
 
               <div className="mt-4 flex justify-between py-2.5">
                 <span>Subtotal</span>
-                <span className="font-semibold text-slate-900 dark:text-slate-200">
-                  $249.00
+                <span className="font-semibold text-slate-800 dark:text-slate-200">
+                ₹8900.00
                 </span>
               </div>
               <div className="flex justify-between py-2.5">
                 <span>Shipping estimate</span>
-                <span className="font-semibold text-slate-900 dark:text-slate-200">
-                  $5.00
+                <span className="font-semibold text-slate-800 dark:text-slate-200">
+                ₹500.00
                 </span>
               </div>
               <div className="flex justify-between py-2.5">
                 <span>Tax estimate</span>
-                <span className="font-semibold text-slate-900 dark:text-slate-200">
-                  $24.90
+                <span className="font-semibold text-slate-800 dark:text-slate-200">
+                ₹1500.90
                 </span>
               </div>
-              <div className="flex justify-between font-semibold text-slate-900 dark:text-slate-200 text-base pt-4">
+              <div className="flex justify-between font-semibold text-slate-800 dark:text-slate-200 text-base pt-4">
                 <span>Order total</span>
-                <span>$276.00</span>
+                <span>₹10900.00</span>
               </div>
             </div>
             <ButtonPrimary className="mt-8 w-full">Confirm order</ButtonPrimary>
@@ -320,7 +320,7 @@ const CheckoutPage = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   href="##"
-                  className="text-slate-900 dark:text-slate-200 underline font-medium"
+                  className="text-slate-800 dark:text-slate-200 underline font-medium"
                 >
                   Taxes
                 </a>
@@ -331,7 +331,7 @@ const CheckoutPage = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   href="##"
-                  className="text-slate-900 dark:text-slate-200 underline font-medium"
+                  className="text-slate-800 dark:text-slate-200 underline font-medium"
                 >
                   Shipping
                 </a>

@@ -27,29 +27,28 @@ const SectionPromo3: FC<SectionPromo3Props> = ({ className = "lg:pt-10" }) => {
 
         <div className="lg:w-[50%] max-w-lg relative">
           <h2 className="font-semibold text-4xl md:text-5xl">
-            {`Don't miss out on special offers`}
+            {`Contact Details :`}
           </h2>
           <span className="block mt-5 text-neutral-500 dark:text-neutral-400">
-            Register to receive news about the latest, savings combos, discount
-            codes...
+            If you have any query realted to our products you can contact below here.
           </span>
           <ul className="space-y-4 mt-10">
             <li className="flex items-center space-x-4">
-              <Badge color="purple" name="01" />
+              <Badge color="purple" name="Phn No:" />
               <span className="font-medium text-neutral-700 dark:text-neutral-300">
-                Savings combos
+                 +91-9984987530, +91-7002838021
               </span>
             </li>
             <li className="flex items-center space-x-4">
-              <Badge name="02" />
+              <Badge name="email:" />
               <span className="font-medium text-neutral-700 dark:text-neutral-300">
-                Best Deals
+                Swiftie.Sanskriti@gmail.com
               </span>
             </li>
             <li className="flex items-center space-x-4">
-              <Badge color="red" name="03" />
+              <Badge color="red" name="Address:" />
               <span className="font-medium text-neutral-700 dark:text-neutral-300">
-                Premium Products
+                Patna, Bihar, India, 800008
               </span>
             </li>
           </ul>

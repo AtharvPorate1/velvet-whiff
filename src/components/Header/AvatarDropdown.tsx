@@ -282,8 +282,9 @@ export default function AvatarDropdown() {
                     </Link>
 
                     {/* ------------------ 2 --------------------- */}
+                    
                     <Link
-                      href={"/#"}
+                      href="/about"
                       className="flex items-center p-2 -m-3 transition duration-150 ease-in-out rounded-lg hover:bg-neutral-100 dark:hover:bg-neutral-700 focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-50"
                       onClick={() => close()}
                     >
@@ -319,7 +320,9 @@ export default function AvatarDropdown() {
                         </svg>
                       </div>
                       <div className="ml-4">
-                        <p className="text-sm font-medium ">{"Log out"}</p>
+                        <a href="/about">
+                        <p className="text-sm font-medium ">{"About Us"}</p>
+                        </a>
                       </div>
                     </Link>
                   </div>

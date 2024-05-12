@@ -305,7 +305,7 @@ Indulge in our signature perfume, a captivating blend of floral and citrus notes
             <ReviewItem />
             <ReviewItem
               data={{
-                comment: `Paisa Barbaad BC`,
+                comment: `Nice Product as Elegant like You`,
                 date: "December 22, 2021",
                 name: "Vaibhav Raj",
                 starPoint: 5,

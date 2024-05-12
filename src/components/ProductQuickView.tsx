@@ -264,7 +264,7 @@ const ProductQuickView: FC<ProductQuickViewProps> = ({ className = "" }) => {
             {
               name: "Description",
               content:
-                "Immerse yourself in a world of refined sophistication and timeless allure, as we invite you to experience the essence of luxury encapsulated in every drop.",
+                "Explore a fragrant symphony of elegance on our perfume website, where each scent is a delicate masterpiece, crafted to evoke whispers of luxury and allure. Discover opulent bottles, each a vessel of olfactory delight, housing the essence of sensuality and refined indulgence. Immerse yourself in the artistry of perfumery, where every note dances gracefully, leaving an unforgettable trail of scented memories in its wake.",
             },
             {
               name: "Features",

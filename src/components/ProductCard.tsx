@@ -32,7 +32,6 @@ const ProductCard: FC<ProductCardProps> = ({
   const {
     name,
     price,
-    description,
     sizes,
     variants,
     variantType,
@@ -289,7 +288,7 @@ const ProductCard: FC<ProductCardProps> = ({
               {name}
             </h2>
             <p className={`text-sm text-slate-500 dark:text-slate-400 mt-1 `}>
-              {description}
+              {}
             </p>
           </div>
 

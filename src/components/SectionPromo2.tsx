@@ -30,8 +30,7 @@ const SectionPromo2: FC<SectionPromo2Props> = ({ className = "lg:pt-10" }) => {
             Elegant products
           </h2>
           <span className="block mt-6 text-slate-500 dark:text-slate-400">
-          Immerse yourself in a world of refined sophistication and timeless allure, as we invite you to experience the essence of luxury encapsulated in every drop.
-          </span>
+          Explore a fragrant symphony of elegance on our perfume website, where each scent is a delicate masterpiece, crafted to evoke whispers of luxury and allure. Discover opulent bottles, each a vessel of olfactory delight, housing the essence of sensuality and refined indulgence. Immerse yourself in the artistry of perfumery, where every note dances gracefully, leaving an unforgettable trail of scented memories in its wake.          </span>
           <div className="flex space-x-2 sm:space-x-5 mt-6 sm:mt-12">
             <ButtonPrimary
               href="/search"

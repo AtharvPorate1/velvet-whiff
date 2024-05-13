@@ -305,10 +305,10 @@ Indulge in our signature perfume, a captivating blend of floral and citrus notes
             <ReviewItem />
             <ReviewItem
               data={{
-                comment: `Nice Product as Elegant like You`,
+                comment: `The product is nice and very skin friendly`,
                 date: "December 22, 2021",
-                name: "Vaibhav Raj",
-                starPoint: 5,
+                name: "Tanu",
+                starPoint: 1,
               }}
             />
             <ReviewItem

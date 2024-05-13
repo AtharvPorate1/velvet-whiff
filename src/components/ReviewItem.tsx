@@ -16,7 +16,7 @@ export interface ReviewItemProps {
 }
 
 const DEMO_DATA: ReviewItemDataType = {
-  name: "Cody Fisher",
+  name: "Mittali",
   date: "May 20, 2021",
   comment:"Sensual, sophisticated, and simply divine. This perfume has become my go-to for any occasion. Highly recommend trying it",
   starPoint: 5,

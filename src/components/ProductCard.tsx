@@ -78,28 +78,28 @@ const ProductCard: FC<ProductCardProps> = ({
   const renderProductCartOnNotify = ({ size }: { size?: string }) => {
     return (
       <div className="flex ">
-        <div className="h-24 w-20 flex-shrink-0 overflow-hidden rounded-xl bg-slate-100">
+        {/* <div className="h-24 w-20 flex-shrink-0 overflow-hidden rounded-xl bg-slate-100">
           <Image
-            width={80}
+            width={50}
             height={96}
             src={image}
             alt={name}
             className="absolute object-cover object-center"
           />
-        </div>
+        </div> */}
 
         <div className="ms-4 flex flex-1 flex-col">
           <div>
             <div className="flex justify-between ">
               <div>
                 <h3 className="text-base font-medium ">{name}</h3>
-                <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
+                {/* <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
                   <span>
                     {variants ? variants[variantActive].name : `Natural`}
                   </span>
                   <span className="mx-2 border-s border-slate-200 dark:border-slate-700 h-4"></span>
                   <span>{size || "XL"}</span>
-                </p>
+                </p> */}
               </div>
               <Prices price={price} className="mt-0.5" />
             </div>

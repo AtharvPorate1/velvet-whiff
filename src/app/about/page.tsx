@@ -19,7 +19,7 @@ const PageAbout = ({}) => {
         <SectionHero
           heading="👋 About Us."
           btnText=""
-          subHeading="We’re impartial Immerse yourself in a world of refined sophistication and timeless allure, as we invite you to experience the essence of luxury encapsulated in every drop."
+          subHeading="Immerse yourself in a world of refined sophistication and timeless allure, as we invite you to experience the essence of luxury encapsulated in every drop."
         />
         </div>
         

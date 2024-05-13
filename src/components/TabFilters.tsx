@@ -20,19 +20,19 @@ const DATA_categories = [
     name: "Sale",
   },
   {
-    name: "Backpacks",
+    name: "Women",
   },
   {
-    name: "Travel Bags",
+    name: "Men",
   },
   {
-    name: "Laptop Sleeves",
+    name: "Eau de Parfum",
   },
   {
-    name: "Organization",
+    name: "Light",
   },
   {
-    name: "Accessories",
+    name: "Strong",
   },
 ];
 

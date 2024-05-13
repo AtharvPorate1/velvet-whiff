@@ -11,7 +11,6 @@ export interface SectionHeroProps {
 
 const SectionHero: FC<SectionHeroProps> = ({
   className = "",
-  rightImg,
   heading,
   subHeading,
   btnText,
@@ -32,7 +31,7 @@ const SectionHero: FC<SectionHeroProps> = ({
           {!!btnText && <ButtonPrimary href="/login">{btnText}</ButtonPrimary>}
         </div>
         <div className="flex-grow">
-          <Image className="w-full" src={rightImg} alt="" priority />
+          {/* <Image className="w-full" src={rightImg} alt="" priority /> */}
         </div>
       </div>
     </div>

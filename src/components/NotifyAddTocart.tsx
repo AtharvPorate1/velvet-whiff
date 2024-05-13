@@ -39,13 +39,13 @@ const NotifyAddTocart: FC<Props> = ({
             <div className="flex justify-between ">
               <div>
                 <h3 className="text-base font-medium ">{name}</h3>
-                <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
+                {/* <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
                   <span>
                     {variants ? variants[variantActive].name : `Natural`}
                   </span>
                   <span className="mx-2 border-l border-slate-200 dark:border-slate-700 h-4"></span>
                   <span>{sizeSelected || "XL"}</span>
-                </p>
+                </p> */}
               </div>
               <Prices price={price} className="mt-0.5" />
             </div>

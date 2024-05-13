@@ -198,14 +198,14 @@ const ProductQuickView: FC<ProductQuickViewProps> = ({ className = "" }) => {
         {/* ---------- 1 HEADING ----------  */}
         <div>
           <h2 className="text-2xl font-semibold hover:text-primary-6000 transition-colors">
-            <Link href="/product-detail">Heavy Weight Shoes</Link>
+            <Link href="/product-detail">Enchanted Garden</Link>
           </h2>
 
           <div className="flex justify-start rtl:justify-end items-center mt-5 space-x-4 sm:space-x-5 rtl:space-x-reverse">
             {/* <div className="flex text-xl font-semibold">$112.00</div> */}
             <Prices
               contentClass="py-1 px-2 md:py-1.5 md:px-3 text-lg font-semibold"
-              price={112}
+              price={2500}
             />
 
             <div className="h-6 border-s border-slate-300 dark:border-slate-700"></div>
@@ -234,8 +234,8 @@ const ProductQuickView: FC<ProductQuickViewProps> = ({ className = "" }) => {
         </div>
 
         {/* ---------- 3 VARIANTS AND SIZE LIST ----------  */}
-        <div className="">{renderVariants()}</div>
-        <div className="">{renderSizeList()}</div>
+        {/* <div className="">{renderVariants()}</div> */}
+        {/* <div className="">{renderSizeList()}</div> */}
 
         {/*  ---------- 4  QTY AND ADD TO CART BUTTON */}
         <div className="flex space-x-3.5 rtl:space-x-reverse">
@@ -264,20 +264,21 @@ const ProductQuickView: FC<ProductQuickViewProps> = ({ className = "" }) => {
             {
               name: "Description",
               content:
-                "Explore a fragrant symphony of elegance on our perfume website, where each scent is a delicate masterpiece, crafted to evoke whispers of luxury and allure. Discover opulent bottles, each a vessel of olfactory delight, housing the essence of sensuality and refined indulgence. Immerse yourself in the artistry of perfumery, where every note dances gracefully, leaving an unforgettable trail of scented memories in its wake.",
+                "Explore a fragrant symphony of elegance on our perfume, where each scent is a delicate masterpiece, crafted to evoke whispers of luxury and allure. Discover opulent bottles, each a vessel of olfactory delight, housing the essence of sensuality and refined indulgence. Immerse yourself in the artistry of perfumery, where every note dances gracefully, leaving an unforgettable trail of scented memories in its wake.",
             },
             {
               name: "Features",
               content: `<ul class="list-disc list-inside leading-7">
-            <li>Material: 43% Sorona Yarn + 57% Stretch Polyester</li>
-            <li>
-             Casual pants waist with elastic elastic inside
+            <li>Globally sourced for unparalleled richness and allure.
             </li>
             <li>
-              The pants are a bit tight so you always feel comfortable
+            Crafted for harmonious, long-lasting fragrance.
             </li>
             <li>
-              Excool technology application 4-way stretch
+            Patient aging fosters depth and sophistication.
+            </li>
+            <li>
+            Quality control ensures excellence from formulation.
             </li>
           </ul>`,
             },
@@ -310,21 +311,21 @@ const ProductQuickView: FC<ProductQuickViewProps> = ({ className = "" }) => {
             {/* META FAVORITES */}
             <LikeButton className="absolute end-3 top-3 " />
           </div>
-          <div className="hidden lg:grid grid-cols-2 gap-3 mt-3 sm:gap-6 sm:mt-6 xl:gap-5 xl:mt-5">
+          {/* <div className="hidden lg:grid grid-cols-2 gap-3 mt-3 sm:gap-6 sm:mt-6 xl:gap-5 xl:mt-5">
             {[LIST_IMAGES_DEMO[1], LIST_IMAGES_DEMO[2]].map((item, index) => {
-              return (
-                <div key={index} className="aspect-w-3 aspect-h-4">
-                  <Image
-                    fill
-                    src={item}
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                    className="w-full rounded-xl object-cover"
-                    alt="product detail 1"
-                  />
-                </div>
+              return (<></>
+                // <div key={index} className="aspect-w-3 aspect-h-4">
+                //   <Image
+                //     fill
+                //     src={item}
+                //     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                //     className="w-full rounded-xl object-cover"
+                //     alt="product detail 1"
+                //   />
+                // </div>
               );
             })}
-          </div>
+          </div> */}
         </div>
 
         {/* SIDEBAR */}

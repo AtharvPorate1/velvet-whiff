@@ -233,7 +233,7 @@ const CheckoutPage = () => {
             </Link>
             <span className="text-xs mx-1 sm:mx-1.5">/</span>
             <Link href={"/collection-2"} className="">
-              Clothing Categories
+              Perfume Categories
             </Link>
             <span className="text-xs mx-1 sm:mx-1.5">/</span>
             <span className="underline">Checkout</span>

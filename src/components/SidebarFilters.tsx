@@ -237,9 +237,9 @@ const SidebarFilters = () => {
 
   return (
     <div className="divide-y divide-slate-200 dark:divide-slate-700">
-      {renderTabsCategories()}
-      {renderTabsColor()}
-      {renderTabsSize()}
+      {/* {renderTabsCategories()} */}
+      {/* {renderTabsColor()} */}
+      {/* {renderTabsSize()} */}
       {renderTabsPriceRage()}
       <div className="py-8 pr-2">
         <MySwitch

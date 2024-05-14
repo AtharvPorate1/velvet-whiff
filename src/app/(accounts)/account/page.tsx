@@ -20,7 +20,7 @@ const AccountPage = () => {
             {/* AVATAR */}
             <div className="relative rounded-full overflow-hidden flex">
               <Image
-                src={avatarImgs[2]}
+                src={avatarImgs[6]}
                 alt="avatar"
                 width={128}
                 height={128}
